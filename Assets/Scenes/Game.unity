@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &250883944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9078681045699876022, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
+  m_PrefabInstance: {fileID: 1972087184}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &282070869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -220,6 +225,16 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6156482181254312268, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
   m_PrefabInstance: {fileID: 282070869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &289173549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9078681045699876022, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
+  m_PrefabInstance: {fileID: 6880805019577506095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &368648399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9078681045699876022, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
+  m_PrefabInstance: {fileID: 493454769}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &457826187
 GameObject:
@@ -773,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 110}
+  m_AnchoredPosition: {x: -33.73523, y: 110}
   m_SizeDelta: {x: 916.468, y: 150.4373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004657689
@@ -876,6 +891,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004657687}
   m_CullTransparentMesh: 1
+--- !u!1 &1345349104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9078681045699876022, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
+  m_PrefabInstance: {fileID: 1624366143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1410573560
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +908,7 @@ GameObject:
   - component: {fileID: 1410573563}
   - component: {fileID: 1410573562}
   - component: {fileID: 1410573561}
+  - component: {fileID: 1410573565}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -979,6 +1000,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1410573565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410573560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24254f4825ad9a8448ae2b3dc13252ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1004657689}
+  question: {fileID: 11400000, guid: 2430e1e06b5a6704282414160139633e, type: 2}
+  answerButtons:
+  - {fileID: 289173549}
+  - {fileID: 1345349104}
+  - {fileID: 250883944}
+  - {fileID: 1724205363}
+  - {fileID: 368648399}
 --- !u!1 &1520577362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1225,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6156482181254312268, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
   m_PrefabInstance: {fileID: 1624366143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1724205363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9078681045699876022, guid: 79c380850fde2f943a47b0a8f0638dde, type: 3}
+  m_PrefabInstance: {fileID: 282070869}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1972087184
 PrefabInstance:
